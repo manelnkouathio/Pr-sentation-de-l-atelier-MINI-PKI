@@ -77,16 +77,3 @@ openssl pkey -in serveur.key -pubout -out serveur.pub
 openssl dgst -sha256 -verify serveur.pub -signature message.sig message.txt
 # Résultat attendu: Verified OK
 ```
-
----
-
-## 📷 Preuve d'Exécution
-
-![Exécution OpenSSL](Capture%20d’écran%20du%202026-11-09%2019-09-42.png)
-
----
-
-## 📚 Références Principales
-* RFC 5280 : *Internet X.509 Public Key Infrastructure Certificate and CRL Profile*
-* FIPS 204 / FIPS 205 (NIST 2024) : *Post-Quantum Cryptography Standards*
-* Loi N° 2010/021 du 21 décembre 2010 régissant le commerce électronique au Cameroun.
